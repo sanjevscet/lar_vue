@@ -1,6 +1,8 @@
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+ @import url('https://fonts.googleapis.com/css?family=Nunito');
+//@import url('https://fonts.googleapis.com/css?family=Mali');
+//@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 
 // Variables
 @import 'variables';
@@ -12,4 +14,39 @@
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.router-link-exact-active {
+  background-color: #3f51b5;
+  color: #fff !important;
+}
+
+.red {
+  color: $red;
+}
+.blue {
+  color: $blue;
+}
+.indigo {
+  color: $indigo;
+}
+.purple {
+  color: $purple;
+}
+.orange {
+  color: $orange;
+}
+.yellow {
+  color: $yellow;
+}
+.green {
+  color: $green;
+}
+.teal {
+  color: $teal;
+}
+.cyan {
+  color: $cyan;
+}
+.white {
+  color: $white;
 }
